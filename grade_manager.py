@@ -89,4 +89,9 @@ while True:
     elif choice == "2":
         show_students()
         show_statistics()
+    elif choice == "3":
+        print("Thank you for using Student Grade Manager!")
+        break
 
+    else:
+        print("Invalid choice! Please select 1, 2 or 3.")
